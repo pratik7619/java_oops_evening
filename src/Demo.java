@@ -1,4 +1,4 @@
-public class Demo {
+class Demo {
     //?Pratik Sherdiwala (Codelytics)
 
     static void printName(String name) {
