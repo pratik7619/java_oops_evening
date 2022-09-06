@@ -3,7 +3,11 @@ package access_specifier.encapsulation;
 class Netflix {
 
     //Global constant
-    private final static Netflix netflix = new Netflix();
+    private static final Netflix netflix;
+
+    static {
+        netflix = new Netflix();
+    }
 
     private Netflix() {
         System.out.println("I am constructor");
